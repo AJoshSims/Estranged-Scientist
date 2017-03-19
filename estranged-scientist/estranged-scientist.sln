@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estranged-scientist.Plugins", "estranged-scientist.Plugins.csproj", "{62E4E3F7-D223-BA52-29EB-E9FD6D42F7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estranged-scientist", "estranged-scientist.csproj", "{5FA55BC5-7597-88B9-9861-3A8466F4D026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "estranged-scientist.Editor.Plugins", "estranged-scientist.Editor.Plugins.csproj", "{10E0AD81-ADBC-BCDB-DE0A-DD29A2EB260D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E4E3F7-D223-BA52-29EB-E9FD6D42F7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E4E3F7-D223-BA52-29EB-E9FD6D42F7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E4E3F7-D223-BA52-29EB-E9FD6D42F7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E4E3F7-D223-BA52-29EB-E9FD6D42F7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA55BC5-7597-88B9-9861-3A8466F4D026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA55BC5-7597-88B9-9861-3A8466F4D026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA55BC5-7597-88B9-9861-3A8466F4D026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA55BC5-7597-88B9-9861-3A8466F4D026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E0AD81-ADBC-BCDB-DE0A-DD29A2EB260D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E0AD81-ADBC-BCDB-DE0A-DD29A2EB260D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E0AD81-ADBC-BCDB-DE0A-DD29A2EB260D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E0AD81-ADBC-BCDB-DE0A-DD29A2EB260D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
