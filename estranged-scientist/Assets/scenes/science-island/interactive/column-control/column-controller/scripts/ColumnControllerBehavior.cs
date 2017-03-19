@@ -6,7 +6,9 @@ public class ColumnControllerBehavior : MonoBehaviour
 {
     private GameObject larry;
 
-    public ColumnBehavior columnBehavior;
+    public ColumnControlEffectBehavior columnBehavior;
+
+    public ColumnControlEffectBehavior buttonBehavior;
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class ColumnControllerBehavior : MonoBehaviour
             < 5))
         {
             columnBehavior.toggleAscending();
+            buttonBehavior.toggleAscending();
         }
 	}
 }

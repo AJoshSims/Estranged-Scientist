@@ -95,7 +95,7 @@
     <Compile Include="Assets\scenes\science-island\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\scenes\science-island\house\items\capsule-lights\scripts\CapsuleLightBehavior.cs" />
     <Compile Include="Assets\scenes\science-island\interactive\column-control\column-controller\scripts\ColumnControllerBehavior.cs" />
-    <Compile Include="Assets\scenes\science-island\interactive\column-control\columns\scripts\ColumnBehavior.cs" />
+    <Compile Include="Assets\scenes\science-island\interactive\column-control\scripts\ColumnControlEffectBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
