@@ -4,38 +4,22 @@ using UnityEngine;
 
 public class ColumnControllerBehavior : MonoBehaviour
 {
-    // 27.5
-    private bool active;
+    private GameObject larry;
 
-    public bool Active
+    public ColumnBehavior columnBehavior;
+
+    private void Start()
     {
-        get
+        larry = GameObject.Find("Larry");
+    }
+
+    private void Update ()
+    {
+		if (Input.GetButtonDown("Activate") 
+            && ((larry.transform.position - transform.position).magnitude 
+            < 5))
         {
-            return active;
+            columnBehavior.toggleAscending();
         }
-        set
-        {
-            active = value;
-        }
-    }
-
-    public void Activate()
-    {
-
-    }
-
-    public void Deactivate()
-    {
-
-    }
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
