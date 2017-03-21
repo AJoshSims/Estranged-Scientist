@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shiftable : MonoBehaviour
+public class Shift : MonoBehaviour
 {
     private bool shifting;
 
     public float speed;
 
-    private Vector3 initialPosition;
+    private Vector3 initialLocalPosition;
 
     public float maxShiftedLocalPositionX;
 
@@ -20,7 +20,9 @@ public class Shiftable : MonoBehaviour
 
     private void Awake()
     {
-        initialPosition = transform.position;
+        shifting = false;
+
+        initialLocalPosition = transform.localPosition;
 
         maxShiftedLocalPosition = new Vector3(
             maxShiftedLocalPositionX,
@@ -33,7 +35,7 @@ public class Shiftable : MonoBehaviour
         shifting = !shifting;
     }
 
-    protected void Shift()
+    protected void Update()
     {
         if (shifting == true)
         {
@@ -47,7 +49,7 @@ public class Shiftable : MonoBehaviour
         {
             transform.localPosition = Vector3.MoveTowards(
                 transform.localPosition,
-                initialPosition,
+                initialLocalPosition,
                 speed * Time.deltaTime);
         }
     }

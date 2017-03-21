@@ -89,12 +89,12 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-    <Compile Include="Assets\scenes\science-island\ActivatorBehavior.cs" />
+    <Compile Include="Assets\scenes\science-island\ColumnActivatorBehavior.cs" />
     <Compile Include="Assets\scenes\science-island\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\scenes\science-island\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\scenes\science-island\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\scenes\science-island\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets\scenes\science-island\Shiftable.cs" />
+    <Compile Include="Assets\scenes\science-island\Shift.cs" />
     <Compile Include="Assets\scenes\science-island\house\items\capsule-lights\scripts\CapsuleLightBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
